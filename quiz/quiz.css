@@ -1,0 +1,86 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins&family=Space+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow&family=Montserrat&family=Poppins&family=Space+Mono&display=swap');
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    flex-wrap: wrap;
+    text-align: center;
+}
+body{   
+    background: #eee;
+    margin-top:150px;
+}
+
+h1{
+    padding: 10px;
+}
+
+table, th, td {
+    border: 1px solid black;
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 10px;
+  }
+
+form{  
+    border: solid gray 1px;  
+    width:35%;  
+    border-radius: 2px;  
+    margin: 30px auto;  
+    background: white;  
+    padding: 30px;  
+} 
+
+input{
+    margin:5px auto;
+}
+
+label{
+    display: inline-block;
+    width: 30%;
+    padding: 5px;
+}
+
+.btn{  
+    color: #fff;
+    background: #0e9b1a;
+    padding: 5px;
+    width: 93px;
+    margin: 2px;
+    margin-top: 5px;
+    border: none;
+    border-radius: 15px;
+}  
+
+.btn:hover{
+    color: #ffffff;
+    background: #39aa35;
+    cursor: pointer;
+}
+#scoredisplay{
+    margin-top:150px;
+}
+
+#scoredisplay button{
+    width: 175px;
+    padding: 10px;
+    border-radius: 25px;
+}
+
+#scoredisplay p{
+    padding:15px;
+}
+.warning{
+    color: red;
+}
+input[type="radio"]{
+    cursor: pointer;
+}
+.question{
+    padding:5px;
+}
